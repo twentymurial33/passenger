@@ -1,10 +1,18 @@
 let countEl = document.getElementById("count-el");
 let saveUl = document.getElementById("save-ul");
+let count = 0;
+
 function increase() {
-  console.log("Button clicked");
+  count += 1;
+  countEl.textContent = count;
 }
 
-function decrease() {}
+function decrease() {
+  if (count > 0) {
+    count -= 1;
+    countEl.textContent = count;
+  }
+}
 
 function save() {}
 

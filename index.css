@@ -32,3 +32,15 @@ button {
 #increase-btn {
   background: darkred;
 }
+
+#decrease-btn {
+  background: darkviolet;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+#del-btn {
+  background: goldenrod;
+}
