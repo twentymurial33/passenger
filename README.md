@@ -2,4 +2,4 @@
 
 javascript App
 
-Completed App https://gymmembership.netlify.app
+Deployed App https://gymmembership.netlify.app
